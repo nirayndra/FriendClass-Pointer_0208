@@ -65,4 +65,6 @@ int main() {
     layang.setSisi1(6);
     layang.setSisi2(4);
     layang.outputData();
+
+    BelahKetupat ketupat;
 }
