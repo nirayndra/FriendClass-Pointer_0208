@@ -71,4 +71,6 @@ int main() {
     ketupat.setD1(8);
     ketupat.setD2(6);
     ketupat.outputData();
+
+    cout << "Keliling Layang-Layang: " << kelilingLayang(layang, ketupat) << endl;
 }
