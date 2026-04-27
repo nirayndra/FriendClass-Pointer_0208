@@ -60,4 +60,9 @@ double kelilingLayang(LayangLayang &l, BelahKetupat &b) {
 
 int main() {
     LayangLayang layang;
+    layang.setD1(10);
+    layang.setD2(8);
+    layang.setSisi1(6);
+    layang.setSisi2(4);
+    layang.outputData();
 }
