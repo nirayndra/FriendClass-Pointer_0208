@@ -30,4 +30,26 @@ public:
 };
 
 class BelahKetupat {
+private:
+    double sisi, d1, d2;
+
+public:
+    void setSisi(double pSisi) { sisi = pSisi; }
+    void setD1(double pD1) { d1 = pD1; }
+    void setD2(double pD2) { d2 = pD2; }
+
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
+
+    double hitungKeliling() {
+        return 4 * sisi;
+    }
+
+    void outputData() {
+        cout << "Luas Belah Ketupat: " << hitungLuas() << endl;
+        cout << "Keliling Belah Ketupat: " << hitungKeliling() << endl;
+    }
+
+    friend double kelilingLayang(LayangLayang &l, BelahKetupat &b);
 };
