@@ -28,3 +28,6 @@ public:
 
     friend double kelilingLayang(LayangLayang &l, BelahKetupat &b);
 };
+
+class BelahKetupat {
+};
