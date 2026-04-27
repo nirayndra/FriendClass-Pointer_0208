@@ -59,5 +59,5 @@ double kelilingLayang(LayangLayang &l, BelahKetupat &b) {
 }
 
 int main() {
-    
+    LayangLayang layang;
 }
